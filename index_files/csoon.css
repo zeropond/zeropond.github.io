@@ -12,6 +12,12 @@ body {
     background-color: #fff;
 }
 
+
+div.href {
+    cursor: pointer;
+}
+
+
 /* Preloader */
 #preloader {
     top: 0;
@@ -348,7 +354,8 @@ a.fa {
 	.intro .intro-body {
 	    display: table-cell;
 	    vertical-align: middle;
-	    background: rgba(0, 0, 0, 0.5);
+	    /*background: rgba(0, 0, 0, 0.5);*/
+       background: rgba(0, 0, 0, 0.9);
 	    padding: 120px 0 50px;
 	    width: 100%;
 	}

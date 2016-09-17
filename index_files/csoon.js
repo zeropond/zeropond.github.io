@@ -2,6 +2,12 @@
  * Csoon - Startup and Coming Soon Theme
  */
 
+$(function(){
+    $('div[href]').click(function(){
+        window.location = $(this).attr('href');
+    });
+});
+
 // Preloader
 jQuery(window).load(function() {
     // will first fade out the loading animation
