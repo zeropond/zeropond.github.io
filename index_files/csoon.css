@@ -13,7 +13,7 @@ body {
 }
 
 
-div.href {
+div[href] {
     cursor: pointer;
 }
 
